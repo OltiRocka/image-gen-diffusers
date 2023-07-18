@@ -26,27 +26,39 @@ The following endpoints are available:
 
 - POST `/image`: Upload an image file and receive a modified image generated based on prompts.
 
+
 ## API Functionality
 `/image` Endpoint
 
 This endpoint allows you to upload an image and obtain a modified version of the image generated based on prompts. The image processing pipeline involves the following steps:
 
 The uploaded image is processed to obtain a mask and an initial image.
+
 Facial landmarks are detected using the dlib library.
+
 Canny edge detection is performed on the initial image using the ControlNet Canny algorithm.
+
 A prompt is randomly chosen from a predefined list.
+
 The pipeline generates a modified image based on the prompt, negative prompt, number of inference steps, initial image, control image (edges), and the mask image.
+
 The modified image is saved and returned as a response.
+
 
 ## Contributing
 
 Contributions to this project are welcome. If you want to contribute, please follow these steps:
 
 Fork the repository.
+
 Create a new branch: ```git checkout -b feature-branch```
+
 Make your changes and commit them: ```git commit -m 'Add some feature'```
+
 Push to the branch: ```git push origin feature-branch```
+
 Open a pull request.
+
 
 ## License
 
