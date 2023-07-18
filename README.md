@@ -42,11 +42,11 @@ The modified image is saved and returned as a response.
 
 Contributions to this project are welcome. If you want to contribute, please follow these steps:
 
-    Fork the repository.
-    Create a new branch: git checkout -b feature-branch
-    Make your changes and commit them: git commit -m 'Add some feature'
-    Push to the branch: git push origin feature-branch
-    Open a pull request.
+Fork the repository.
+Create a new branch: ```git checkout -b feature-branch```
+Make your changes and commit them: ```git commit -m 'Add some feature'```
+Push to the branch: ```git push origin feature-branch```
+Open a pull request.
 
 ## License
 
