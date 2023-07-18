@@ -31,12 +31,12 @@ The following endpoints are available:
 
 This endpoint allows you to upload an image and obtain a modified version of the image generated based on prompts. The image processing pipeline involves the following steps:
 
-    The uploaded image is processed to obtain a mask and an initial image.
-    Facial landmarks are detected using the dlib library.
-    Canny edge detection is performed on the initial image using the ControlNet Canny algorithm.
-    A prompt is randomly chosen from a predefined list.
-    The pipeline generates a modified image based on the prompt, negative prompt, number of inference steps, initial image, control image (edges), and the mask image.
-    The modified image is saved and returned as a response.
+The uploaded image is processed to obtain a mask and an initial image.
+Facial landmarks are detected using the dlib library.
+Canny edge detection is performed on the initial image using the ControlNet Canny algorithm.
+A prompt is randomly chosen from a predefined list.
+The pipeline generates a modified image based on the prompt, negative prompt, number of inference steps, initial image, control image (edges), and the mask image.
+The modified image is saved and returned as a response.
 
 ## Contributing
 
